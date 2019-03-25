@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+#quote-box { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;     /* https://www.w3schools.com/css/css_align.asp website shows to center an element vertically regardless of height*/
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#text { font-size: 30px; }
+
+#text, #author { font-family: 'Spectral', serif; }
+
+#author {  text-align: right; }
+
+#text {  padding-top: 10px; }
+
+#new-quote {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#new-quote:focus { outline: 0; }
+
+#tweet-quote { padding-bottom: 10px; }
+
+#twitter-logo{
+    border-radius: 5px;
+    background-color: black;
+    width: 25px;
+}
+
+#twitter-logo:hover, #new-quote:hover {
+    background: grey;
+}
+
+#twitter-quote, #new-quote {
+    margin-top: 5px;
+}
